@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+   font-family: "Montserrat", sans-serif;
+   margin: 0;
+   padding: 0; 
+   box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: url("../img/fondo.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+/* Apuntamos a la barra de navegacón que esta dentro de header */
+header nav{
+    /* background: red;     */
+    display: flex;
+    /* height: 400px; */
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0;
+}
+
+header ul a{
+    color: #ffffff;
+    font-size: 25px;
+    margin: 0 14px;
+    text-decoration: none;
+    transition: .6s;
+}
+
+header ul a:hover{
+    border-bottom: 2px solid #ffffff;
+}
+#hero{
+    /* background-color: aqua; */
+    text-align: center;
+    margin-top: 372px;
+}
+
+
+#hero h1{
+    color: #ffffff;
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+
+#hero button{
+    background-color: white;
+    color: #F75C9B;
+    font-size: 32px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border-color: transparent;
+}
+
+#Servicios{
+    width: 100%;
+    padding: 120PX;
+    text-align: center;
+}
+
+#Pedidos_Especiales{
+    width: 100%;
+    padding: 120PX;
+    text-align: center;
+}
+
+#Servicios h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+#Servicios p{
+    font-size: 22px;
+}
+#Pedidos_Especiales h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+#Pedidos_Especiales p{
+    font-size: 22px;
+}
+
+
+#Pedidos_Especiales .fila{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+#Servicios .fila{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+#Pedidos_Especiales .fila{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+#Pedidos_Especiales article{
+    margin: 0 40px;
+    position: relative;
+}
+
+#Pedidos_Especiales article h3{
+    z-index: 9;
+    top: 110px;
+    width: 100%;
+    text-align: center;
+    color: #F75C9B;
+}
+
+#Servicios article{
+    margin: 0 40px;
+    position: relative;
+}
+
+#Servicios article h3{
+    z-index: 9;
+    top: 110px;
+    width: 100%;
+    text-align: center;
+    color: #F75C9B;
+}
+.tituloservicios{
+    color: #F75C9B;
+}
+.img1{
+    width: 400px;
+    height: 450px;
+}
+
+.img2{
+    width: 400px;
+    height: 450px;
+}
+
+.img3{
+    width: 400px;
+    height: 450px;
+}
+
+
+#Portafolio{
+    padding: 120px;
+    text-align: center;
+    background: url("../img/doble.jpg");
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.container {
+width: 80px; /* Ajusta según tus necesidades */
+  
+margin: 0 auto; /* Centra el contenedor */
+    padding: 20px; /* Espaciado interno */
+}
+
+#Recetas{
+    text-align: center;
+    background: url("../img/2200\ \(1\).jpg");
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 752px;
+    
+}
+#Recetas p{
+    font-size: 22px;
+}
+
+#Portafolio h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: #F75C9B;
+}
+#Recetas h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+#Portafolio .fila{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+#Portafolio article{
+    margin: 10px 200px;
+}
+#Portafolio article h3{
+    
+    text-align: center;
+    color: #ffffff;
+}
+
+.imgtc{
+    width: 300px;
+    height: 410px;
+    border-radius: 20px;
+    transition: transform 0.3s ease; 
+}
+.imgtc:active {
+    transform: scale(1.5); /* Agranda la imagen 1.5 veces su tamaño original */
+  }
+  .imgtc:hover {
+    transform: scale(1.5); /* Agranda la imagen al pasar el mouse */
+  }
+.imgtf{
+    width: 300px;
+    height: 410px;
+    border-radius: 20px;
+    transition: transform 0.3s ease; 
+}
+.imgtf:active {
+    transform: scale(1.5); /* Agranda la imagen 1.5 veces su tamaño original */
+  }
+  .imgtf:hover {
+    transform: scale(1.5); /* Agranda la imagen al pasar el mouse */
+  }
+.imgtl{
+    width: 300px;
+    height: 410px;
+    border-radius: 20px;
+    transition: transform 0.3s ease; 
+}
+.imgtl:active {
+    transform: scale(1.5); /* Agranda la imagen 1.5 veces su tamaño original */
+  }
+  .imgtl:hover {
+    transform: scale(1.5); /* Agranda la imagen al pasar el mouse */
+  } 
+.imgcup{
+    width: 300px;
+    height: 410px;
+    border-radius: 20px;
+    transition: transform 0.3s ease; 
+}
+.imgcup:active {
+    transform: scale(1.5); /* Agranda la imagen 1.5 veces su tamaño original */
+  }
+  .imgcup:hover {
+    transform: scale(1.5); /* Agranda la imagen al pasar el mouse */
+  }
+#contacto {
+    width: 100%;
+    text-align: center;
+    padding: 100px 0;
+    background: #F75C9B;
+}
+
+#contacto h2{
+    font-size: 50px;
+    color: #ffffff;
+}
+
+#contacto p{
+    font-size: 30px;
+}
+
+#contacto form{
+    width: 50%;
+    margin: 40px auto;
+}
+
+#contacto input,
+#contacto select{
+    width: 40%;
+    padding: 8px 14px;
+    font-size: 20px;
+    margin: 10px;
+}
+
+#contacto button{
+    padding: 10px 50px;
+    font-size: 20px;
+    background: #F75C9B(176, 176, 5);
+    color: black;
+    border-radius: 8px;
+    margin-top: 60px;
+    border-color: transparent;
+}
+
+footer{
+    background: black;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+}
+
+  .imgtc:active {
+    transform: scale(1.5); /* Agranda la imagen 1.5 veces su tamaño original */
+  }
+.titlePorta {
+width: 500px;
+
+}
+.buttonportafolio{
+    background-color: rgb(255, 255, 255);
+    color: #F75C9B;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border-color: transparent;
+}
+
+/* Estilo para transición de opacidad y transformación */
+section {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+/* Estilo para cuando la sección está en vista */
+section.in-view {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Mejora de visibilidad del texto en secciones */
+section {
+    padding: 60px 20px;
+    background: #f9f9f9; /* Cambia esto según el fondo de tus secciones */
+}
